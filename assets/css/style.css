@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@200&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+body{
+  background-color: #100720;
+  position: relative;
+}
+.background_image{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/valeriia-neganova-LDqXf3BR0kc-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.container{
+  max-width: 350px;
+  width: 100%;
+  padding: 20px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  overflow: hidden;
+  z-index: 1;
+
+}
+.information{
+  width: 150px;
+
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #D66D75;
+  color: #EEEEEE;
+  padding-left: 5px;
+}
+.avatar_user{
+  display: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.avatar_user img{
+  max-width: 125px;
+  border-radius: 50%;
+  border: 2px solid #EEEEEE;
+}
+.info_user{
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+}
+.info{
+  border-radius: 3px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.contents_info:hover{
+  background-color: #EDEDED;
+}
+.contents_info:hover .icon, .contents_info:hover span{
+  color: #F47C7C;
+}
+.info .icon{
+  font-size: 1.5rem;
+  color: #EEEEEE;
+  margin: 0 5px;
+  transition: all .5s ease;
+
+}
+.info span{
+  padding: 0 10px;
+  font-size: .9rem;
+  color: #EEEEEE;
+  transition: all .5s ease;
+
+}
+.contents_info{
+  width: 100%;
+  height: 50px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 0;
+  position: relative;
+  transition: all .5s ease;
+}
+.social_midia .link_social{
+  margin: 0 5px;
+  margin-top: 5px;
+}
+.link_spotify{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  background-color: #1DB954;
+}
+
+.link_spotify .icon{
+  font-size: 1.5rem;
+  color: #FFF;
+  margin: 0 5px;
+  transition: all .5s ease;
+}
+.link_spotify:hover .icon{
+  color: #FFF;
+}
+.footer{
+  width: 100%;
+  height: 3rem;
+}
+.copyright{
+  height: 100%;
+  font-size: .8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #E1E8EB;
+}
+.circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 80%;
+  left: 41%;
+  transform: translate(-50%,-50%);
+  background: #D66D75;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}

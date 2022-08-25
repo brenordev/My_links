@@ -120,7 +120,9 @@ body{
   font-weight: 500;
   background-color: #1DB954;
 }
-
+.link_spotify:hover{
+  background-color: #5BB318;
+}
 .link_spotify .icon{
   font-size: 1.5rem;
   color: #FFF;

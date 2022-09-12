@@ -1,31 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@200&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@200&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Saira Semi Condensed', sans-serif;
+  font-family: "Saira Semi Condensed", sans-serif;
 }
-body{
+body {
   background-color: #100720;
   position: relative;
 }
-.background_image{
+.background_image {
   width: 100%;
   height: 100vh;
   background-image: url(../images/valeriia-neganova-LDqXf3BR0kc-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
-.container{
+.container {
   max-width: 350px;
   width: 100%;
   padding: 20px 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   border-radius: 3px;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -33,9 +32,8 @@ body{
   -webkit-backdrop-filter: blur(5px);
   overflow: hidden;
   z-index: 1;
-
 }
-.information{
+.information {
   width: 100%;
   padding: 0 20px;
   display: flex;
@@ -45,11 +43,10 @@ body{
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #D66D75;
-  color: #EEEEEE;
-
+  background-color: #f47c7c;
+  color: #eeeeee;
 }
-.avatar_user{
+.avatar_user {
   display: 100%;
   overflow: hidden;
   display: flex;
@@ -59,43 +56,42 @@ body{
   margin-top: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.avatar_user img{
+.avatar_user img {
   max-width: 125px;
   border-radius: 50%;
-  border: 2px solid #EDEDED;
+  border: 2px solid #ededed;
   box-shadow: 0 0 5px rgba(0, 0, 0, 5);
 }
-.info_user{
+.info_user {
   width: 100%;
   padding: 10px 15px;
   display: flex;
   flex-direction: column;
 }
-.info{
+.info {
   border-radius: 3px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.contents_info:hover{
-  background-color: #EDEDED;
+.contents_info:hover {
+  background-color: #ededed;
 }
-.contents_info:hover .icon, .contents_info:hover span{
-  color: #F47C7C;
+.contents_info:hover .icon,
+.contents_info:hover span {
+  color: #f47c7c;
 }
-.info .icon{
+.info .icon {
   font-size: 1.5rem;
-  color: #EEEEEE;
+  color: #eeeeee;
   margin: 0 5px;
-  transition: all .5s ease;
-
+  transition: all 0.5s ease;
 }
-.info span{
+.info span {
   padding: 0 10px;
-  font-size: .9rem;
-  color: #EEEEEE;
-  transition: all .5s ease;
-
+  font-size: 0.9rem;
+  color: #eeeeee;
+  transition: all 0.5s ease;
 }
-.contents_info{
+.contents_info {
   width: 100%;
   height: 50px;
   border-radius: 3px;
@@ -104,16 +100,16 @@ body{
   align-items: center;
   margin: 5px 0;
   position: relative;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
-.social_midia .link_social{
+.social_midia .link_social {
   margin: 0 5px;
   margin-top: 5px;
 }
 .contents_info .link_social:hover {
   filter: brightness(1.5);
 }
-.link_spotify{
+.link_spotify {
   width: 100%;
   height: 100%;
   display: flex;
@@ -125,44 +121,51 @@ body{
   text-decoration: none;
   color: #000;
   font-weight: bold;
-  background-color: #1DB954;
+  background-color: #1db954;
 }
 
-.link_spotify:hover{
-  background-color: #5BB318;
+.link_spotify:hover {
+  background-color: #5bb318;
 }
-.link_spotify .icon{
+.link_spotify .icon {
   font-size: 1.5rem;
-  color: #FFF;
+  color: #fff;
   margin: 0 5px;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
-.link_spotify:hover .icon{
-  color: #FFF;
+.link_spotify:hover .icon {
+  color: #fff;
 }
-.footer{
+.footer {
   width: 100%;
   height: 3rem;
 }
-.copyright{
+.copyright {
   height: 100%;
-  font-size: .8rem;
+  font-size: 0.8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #E1E8EB;
+  color: #e1e8eb;
 }
-.circle{
+.circle {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   position: absolute;
   top: 80%;
   left: 41%;
-  transform: translate(-50%,-50%);
-  background: #D66D75;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  transform: translate(-50%, -50%);
+  background: #d66d75; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e29587,
+    #d66d75
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e29587,
+    #d66d75
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

@@ -5,8 +5,8 @@
 • <a href="https://brenordev.github.io/My_links/">🚀 Visualizar</a>
 </p>
 
- Este projeto no início foi desenvolvido apenas para conclusão do desafio proposto pela @rocketseat_oficial que era 21 de código, um dos desafios
- era criar um card com o efeito Glassmorphism, onde acabei criando e logo em seguida me veio em mente em criar um projeto semelhante ao Linktree mas com alguns outros detalhes e informações e acabei usando para social-linking próprio.
+ Este projeto foi criado após a conclusão de um dos desafios propostos pela @rocketseat_oficial que era 21 de código, um dos desafios
+ era criar um card com o efeito Glassmorphism, onde acabei concluindo o desafio e logo em seguida me veio em mente em criar um projeto semelhante ao Linktree mas com alguns outros detalhes e informações e acabei usando para social-linking próprio.
 
  <p align="center">
 <span>Repositório do desafio da Rocketseat - Desafio dia 06</span>

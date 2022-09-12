@@ -79,6 +79,9 @@ body {
 .contents_info:hover span {
   color: #f47c7c;
 }
+.contents_info .icon{
+  transition: all 0.5s ease;
+}
 .info .icon {
   font-size: 1.5rem;
   color: #eeeeee;

@@ -47,7 +47,10 @@ body {
   color: #eeeeee;
 }
 .avatar_user {
-  display: 100%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -55,12 +58,13 @@ body {
   padding: 10px;
   margin-top: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-image: url(../images/photo_2.jfif);
+  background-position: center;
+  background-size: cover;
 }
 .avatar_user img {
-  max-width: 125px;
-  border-radius: 50%;
-  border: 2px solid #ededed;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+  width: 100%;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 5); */
 }
 .info_user {
   width: 100%;

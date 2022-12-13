@@ -18,8 +18,7 @@
   <body>
     <div class="background_image"></div>
     <div class="container" id="card">
-      <div class="avatar_user">
-      </div>
+      <div class="avatar_user"></div>
       <div class="info_user">
         <div class="info">
           <div class="contents_info">
@@ -39,6 +38,12 @@
             <span>JavaScript e Inglês</span>
           </div>
         </div>
+        <div class="info setup" id="btn_modal">
+          <div class="contents_info">
+            <ion-icon name="desktop-outline" class="icon"></ion-icon>
+            <span>Setup</span>
+          </div>
+        </div>
         <div class="info">
           <div class="contents_info social_midia">
             <i class="fa-solid fa-share-nodes icon"></i>
@@ -54,13 +59,17 @@
             <a
               href="https://www.linkedin.com/in/breno-ribeiro-293653231/"
               class="link_social"
-              ><i class="fa-brands fa-linkedin icon"></i
-            ></a>
-            <a href="https://portfolio-two-gules-69.vercel.app/" class="link_social"
-              ><i class="fa-solid fa-globe icon"></i
-            ></a>
+              ><i class="fa-brands fa-linkedin icon"></i>
+            </a>
+            <a
+              href="https://portfolio-two-gules-69.vercel.app/"
+              class="link_social"
+            >
+              <i class="fa-solid fa-globe icon"></i>
+            </a>
           </div>
         </div>
+
         <div class="info">
           <div class="contents_info">
             <i class="fa-solid fa-envelope icon"></i>
@@ -87,5 +96,114 @@
       </footer>
     </div>
     <div class="circle"></div>
+    <div class="setup_modal" id="modal_setup">
+      <h3 class="title_modal">Configuração do Setup</h3>
+      <div class="setup_item">
+        <span class="item_span">
+          <img
+            src="./assets/images/icons/icons8-monitor-96.png"
+            alt="ícone HD"
+          />
+          <span>Monitor Dell P2219H</span>
+        </span>
+      </div>
+      <div class="setup_item">
+        <span class="item_span">
+          <img
+            src="./assets/images/icons/icons8-processador-96.png"
+            alt="ícone HD"
+          />
+          <span>Intel Core I510400F</span>
+        </span>
+      </div>
+      <div class="setup_item">
+        <span class="item_span">
+          <img
+            src="./assets/images/icons/icons8-placa-mãe-96.png"
+            alt="ícone HD"
+          />
+          <span>Asus TUF Gaming B460M Plus</span>
+        </span>
+      </div>
+      <div class="setup_item">
+        <span class="item_span">
+          <img
+            src="./assets/images/icons/icons8-placa-de-vídeo-96.png"
+            alt="ícone HD"
+          />
+          <span>Asus NVIDIA GeForce GTX 1650 TUF Gaming</span>
+        </span>
+      </div>
+      <div class="setup_item">
+        <span class="item_span">
+          <img
+            src="./assets/images/icons/icons8-computer-ram-100.png "
+            class="img_ram"
+            alt="ícone HD"
+          />
+          <span>1x Corsair Vengeance LPX 8GB DDR4 2666Mhz</span>
+        </span>
+      </div>
+      <div class="setup_item">
+        <span class="item_span">
+          <img src="./assets/images/icons/icons8-ssd-96.png" alt="ícone HD" />
+          <span>SSD Lexar NM100 256GB M.2</span>
+        </span>
+      </div>
+      <div class="setup_item">
+        <div class="item_name"></div>
+        <span class="item_span">
+          <img src="./assets/images/icons/icons8-hdd-96.png" alt="ícone HD" />
+          <span>HD Seagate Barracuda 1TB</span>
+        </span>
+      </div>
+      <div class="setup_item">
+        <div class="item_name"></div>
+        <span class="item_span">
+          <img src="./assets/images/icons/icons8-rato-96.png" alt="ícone HD" />
+          <span>Mouse Storm Elite Lunar White RGB</span>
+        </span>
+      </div>
+      <div class="setup_item">
+        <div class="item_name"></div>
+        <span class="item_span">
+          <img
+            src="./assets/images/icons/icons8-usb-ligado-96.png"
+            alt="ícone HD"
+          />
+          <span>Teclado T-Dagger Bora RGB - Switch Red</span>
+        </span>
+      </div>
+      <div class="setup_item">
+        <div class="item_name"></div>
+        <span class="item_span">
+          <img
+            src="./assets/images/icons/icons8-usb-ligado-96.png"
+            alt="ícone HD"
+          />
+          <span>Headseat Havit Preto - HV-H2002D</span>
+        </span>
+      </div>
+      <div class="setup_item">
+        <div class="item_name"></div>
+        <span class="item_span">
+          <img
+            src="./assets/images/icons/icons8-windows-10-96.png"
+            alt="ícone HD"
+          />
+          <span>Windows 10 PRO</span>
+        </span>
+      </div>
+      <button class="btn close_modal" id="btn_close_modal">Fechar</button>
+    </div>
   </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="./assets/js/script.js"></script>
 </html>
